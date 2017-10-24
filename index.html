@@ -11,10 +11,44 @@
 	<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.3/dist/css/bootstrap-material-design.min.css"
 	 integrity="sha384-k5bjxeyx3S5yJJNRD1eKUMdgxuvfisWKku5dwHQq9Q/Lz6H8CyL89KF52ICpX4cL" crossorigin="anonymous">
 	<title>Document</title>
+	<!-- Custom styles for starter template -->
+	<link href="starter-template.css" rel="stylesheet">
+	<!-- Custom styles for signin form template -->
+	<link href="signin.css" rel="stylesheet">
 </head>
 
 <body>
-	<h1>Hello, world!</h1>
+
+	<div class="container">
+
+		<div class="starter-template">
+			<h1>Bootstrap starter template</h1>
+			<p class="lead">Use this document as a way to quickly start any new project.
+				<br> All you get is this text and a mostly barebones HTML document.</p>
+		</div>
+
+	</div>
+	<!-- /.container -->
+
+	<div class="container">
+
+		<form class="form-signin">
+			<h2 class="form-signin-heading">Please sign in</h2>
+			<label for="inputEmail" class="sr-only">Email address</label>
+			<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+			<label for="inputPassword" class="sr-only">Password</label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" value="remember-me"> Remember me
+				</label>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		</form>
+
+	</div>
+	<!-- /container -->
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
